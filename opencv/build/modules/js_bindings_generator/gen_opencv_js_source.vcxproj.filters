@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\a604e936d235ece724936116052d2ba4\bindings.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\7bfc5ecb9f9e3e9b452030d38d866407\gen_opencv_js_source.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\js\generator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\js\src\core_bindings.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\js\generator\embindgen.py" />
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\js\generator\templates.py" />
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\js_bindings_generator\CMakeFiles\gen_opencv_js_source" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BF56B735-931F-3BF6-89E8-E650FD1E0798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B007215A-AC75-3259-9486-6FB02B14C6C7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

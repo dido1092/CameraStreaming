@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\CMakeFiles\opencv_imgproc.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\accum.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\accum.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\approx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\bilateral_filter.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\blend.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\box_filter.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\canny.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\clahe.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\color.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\color_hsv.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\color_lab.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\color_rgb.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\color_yuv.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\colormap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\connectedcomponents.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\contours.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\contours_approx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\contours_common.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\contours_link.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\contours_new.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\convhull.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\corner.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\cornersubpix.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\demosaicing.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\deriv.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\distransform.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\drawing.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\emd.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\emd_new.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\featureselect.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\filter.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\floodfill.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\gabor.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\generalized_hough.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\geometry.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\grabcut.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\hershey_fonts.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\histogram.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\hough.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\imgwarp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\intelligent_scissors.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\intersection.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\linefit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\lsd.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\matchcontours.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\median_blur.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\min_enclosing_triangle.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\moments.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\morph.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\phasecorr.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\pyramids.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\resize.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\rotcalipers.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\samplers.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\segmentation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\shapedescr.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\smooth.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\spatialgradient.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\stackblur.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\subdivision2d.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\sumpixels.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\tables.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\templmatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\thresh.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\utils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencl_kernels_imgproc.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\include\opencv2\imgproc.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\include\opencv2\imgproc\bindings.hpp">
+      <Filter>Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\include\opencv2\imgproc\detail\gcgraph.hpp">
+      <Filter>Include\opencv2\imgproc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\include\opencv2\imgproc\detail\legacy.hpp">
+      <Filter>Include\opencv2\imgproc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\include\opencv2\imgproc\hal\hal.hpp">
+      <Filter>Include\opencv2\imgproc\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\include\opencv2\imgproc\hal\interface.h">
+      <Filter>Include\opencv2\imgproc\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\include\opencv2\imgproc\imgproc.hpp">
+      <Filter>Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\include\opencv2\imgproc\imgproc_c.h">
+      <Filter>Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\include\opencv2\imgproc\segmentation.hpp">
+      <Filter>Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\include\opencv2\imgproc\types_c.h">
+      <Filter>Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencl_kernels_imgproc.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\_geom.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\accum.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\bilateral_filter.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\box_filter.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\ccl_bolelli_forest.inc.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\ccl_bolelli_forest_firstline.inc.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\ccl_bolelli_forest_lastline.inc.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\ccl_bolelli_forest_singleline.inc.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\color.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\color.simd_helpers.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\color_hsv.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\color_rgb.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\color_yuv.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\contours_common.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\corner.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\filter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\filter.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\filterengine.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\fixedpoint.inl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\hal_replacement.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\imgwarp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\median_blur.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\morph.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\resize.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\smooth.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\sumpixels.avx512_skx.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\sumpixels.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\CMakeFiles\opencv_imgproc.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\CMakeFiles\opencv_imgproc.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\dc4af1d069cbe11d3be5d4872487b7b0\opencl_kernels_imgproc.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\accumulate.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\bilateral.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\blend_linear.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\boxFilter.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\boxFilter3x3.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\calc_back_project.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\canny.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\clahe.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\color_hsv.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\color_lab.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\color_rgb.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\color_yuv.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\corner.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\covardata.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\filter2D.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\filter2DSmall.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\filterSepCol.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\filterSepRow.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\filterSep_singlePass.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\filterSmall.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\gaussianBlur3x3.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\gaussianBlur5x5.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\gftt.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\histogram.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\hough_lines.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\integral_sum.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\laplacian3.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\laplacian5.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\linearPolar.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\logPolar.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\match_template.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\medianFilter.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\moments.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\morph.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\morph3x3.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\precornerdetect.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\pyr_down.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\pyr_up.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\pyramid_up.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\remap.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\resize.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\sepFilter3x3.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\threshold.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\warp_affine.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\warp_perspective.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\imgproc\src\opencl\warp_transform.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\imgwarp.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\resize.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\accum.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\box_filter.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\filter.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\color_hsv.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\color_rgb.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\color_yuv.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\median_blur.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\morph.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\smooth.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX.dir\$(Configuration)\corner.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX.dir\$(Configuration)\accum.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\imgwarp.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\resize.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\accum.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\bilateral_filter.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\box_filter.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\filter.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\color_hsv.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\color_rgb.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\color_yuv.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\median_blur.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\morph.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\smooth.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\sumpixels.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX512_SKX.dir\$(Configuration)\sumpixels.avx512_skx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BF56B735-931F-3BF6-89E8-E650FD1E0798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{E52B86AB-00F7-3FE0-B936-79BBA11DD28A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{D1A992BF-F516-33F9-B064-1F67FC666B5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\imgproc">
+      <UniqueIdentifier>{403C0F89-420F-30E2-8A2D-4D74D71D86D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\imgproc\detail">
+      <UniqueIdentifier>{43AA6753-6B7D-30C5-A903-EE17D2E5E702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\imgproc\hal">
+      <UniqueIdentifier>{44592331-B94E-335F-A329-57C4CF31EF85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{90B6BE05-AB92-3703-81E7-09C59700EAA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{7112C453-40D0-32DE-BD5E-4F2F178F7232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B007215A-AC75-3259-9486-6FB02B14C6C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{82142268-41F5-34FB-803C-6761E07AE196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{D1B502C3-DF07-3D72-AE6A-C5077D9DEC47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{FCB28BA6-016E-3A87-A291-23140143F5E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{BF0018BD-0A63-33AA-A45F-5F65F9AE5D88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

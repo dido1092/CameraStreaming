@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\CMakeFiles\opencv_calib3d.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\ap3p.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\calibinit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\calibration.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\calibration_base.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\calibration_handeye.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\checkchessboard.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\chessboard.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\circlesgrid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\compat_ptsetreg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\dls.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\epnp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\fisheye.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\five-point.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\fundam.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\homography_decomp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\ippe.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\levmarq.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\p3p.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\polynom_solver.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\ptsetreg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\quadsubpix.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\rho.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\solvepnp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\sqpnp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\stereo_geom.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\stereobm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\stereosgbm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\triangulate.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\undistort.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\upnp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\bundle.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\degeneracy.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\dls_solver.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\essential_solver.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\estimator.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\fundamental_solver.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\gamma_values.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\homography_solver.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\local_optimization.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\pnp_solver.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\quality.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\ransac_solvers.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\sampler.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\termination.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac\utils.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\opencl_kernels_calib3d.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\opencv_calib3d_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\include\opencv2\calib3d.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\include\opencv2\calib3d\calib3d.hpp">
+      <Filter>Include\opencv2\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\include\opencv2\calib3d\calib3d_c.h">
+      <Filter>Include\opencv2\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\opencl_kernels_calib3d.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\ap3p.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\chessboard.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\circlesgrid.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\distortion_model.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\dls.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\epnp.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\fisheye.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\hal_replacement.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\ippe.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\p3p.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\polynom_solver.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\rho.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\sqpnp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\undistort.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\upnp.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\usac.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\CMakeFiles\opencv_calib3d.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\CMakeFiles\opencv_calib3d.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\2d0d266973c80530fe2075e0b725bade\opencl_kernels_calib3d.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\calib3d\src\opencl\stereobm.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\opencv_calib3d_AVX2.dir\$(Configuration)\undistort.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BF56B735-931F-3BF6-89E8-E650FD1E0798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{E52B86AB-00F7-3FE0-B936-79BBA11DD28A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{D1A992BF-F516-33F9-B064-1F67FC666B5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\calib3d">
+      <UniqueIdentifier>{516DD1B1-D0F9-3988-9EA3-BC1665D00D81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{90B6BE05-AB92-3703-81E7-09C59700EAA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{7112C453-40D0-32DE-BD5E-4F2F178F7232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B007215A-AC75-3259-9486-6FB02B14C6C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{82142268-41F5-34FB-803C-6761E07AE196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{D1B502C3-DF07-3D72-AE6A-C5077D9DEC47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{FCB28BA6-016E-3A87-A291-23140143F5E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{BF0018BD-0A63-33AA-A45F-5F65F9AE5D88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\usac">
+      <UniqueIdentifier>{D78FAE83-FC98-391B-ABFB-A27701F4D23B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

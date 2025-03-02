@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\gapi\CMakeFiles\opencv_perf_gapi.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_core_perf_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_imgproc_perf_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_render_perf_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_video_perf_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\cpu\gapi_core_perf_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\cpu\gapi_core_perf_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\cpu\gapi_imgproc_perf_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\cpu\gapi_imgproc_perf_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\cpu\gapi_video_perf_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\gpu\gapi_core_perf_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\gpu\gapi_imgproc_perf_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\internal\gapi_compiler_perf_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\perf_bench.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\perf_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\render\gapi_render_perf_tests_ocv.cpp">
+      <Filter>Src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\streaming\gapi_streaming_source_perf_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_core_perf_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_core_perf_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_imgproc_perf_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_imgproc_perf_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_render_perf_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_render_perf_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_video_perf_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\common\gapi_video_perf_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\perf\perf_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\gapi\CMakeFiles\opencv_perf_gapi.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\gapi\CMakeFiles\opencv_perf_gapi.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{E52B86AB-00F7-3FE0-B936-79BBA11DD28A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\common">
+      <UniqueIdentifier>{9F27E026-CF72-366A-A57B-1B96F59911CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{7112C453-40D0-32DE-BD5E-4F2F178F7232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B007215A-AC75-3259-9486-6FB02B14C6C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{82142268-41F5-34FB-803C-6761E07AE196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\common">
+      <UniqueIdentifier>{387630B9-D820-3216-95B0-E1D91787EC0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\cpu">
+      <UniqueIdentifier>{E879D4F6-86EE-354D-9171-42ECBBCC6903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\gpu">
+      <UniqueIdentifier>{90E960B9-08F5-3E31-9E28-40B2566DF9AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\internal">
+      <UniqueIdentifier>{B9A86E45-8AA3-3CEA-B80D-2D5678103D0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\render">
+      <UniqueIdentifier>{86F78F2A-722A-3A37-95CC-F4805E1DE4F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\streaming">
+      <UniqueIdentifier>{E751D6E6-90C8-3944-BF8B-7735AB00BDB4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

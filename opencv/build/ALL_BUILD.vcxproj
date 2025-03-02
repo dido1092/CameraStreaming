@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2849790C-3EED-386C-BCA6-4CAE539C0F88}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\bin\cmake.exe -SC:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources -BC:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/build --check-stamp-file C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeFindJavaCommon.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeParseArguments.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakePushCheckState.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CPack.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CPackComponent.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckFunctionExists.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckIncludeFile.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckIncludeFileCXX.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckLibraryExists.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckSourceCompiles.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckSymbolExists.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckTypeSize.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindBLAS.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindGit.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindJNI.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindJava.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindLAPACK.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindOpenMP.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindPythonInterp.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindThreads.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\TestBigEndian.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Templates\CPackConfig.cmake.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\3rdparty\ffmpeg\ffmpeg_version.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\4.0.0-rc1\CMakeCCompiler.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\4.0.0-rc1\CMakeCXXCompiler.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\4.0.0-rc1\CMakeRCCompiler.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\4.0.0-rc1\CMakeSystem.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\3rdparty\ffmpeg\ffmpeg.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\3rdparty\ippicv\ippicv.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVCRTLinkage.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVCompilerOptimizations.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVCompilerOptions.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectApacheAnt.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectCXXCompiler.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectDirectML.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectDirectX.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectFlatbuffers.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectOpenCL.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectPython.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectTrace.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectVTK.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDownload.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVExtraTargets.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindAVIF.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindFrameworks.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindIPP.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindIPPIW.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindLAPACK.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindLibsGUI.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindLibsGrfmt.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindLibsPerf.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindLibsVideo.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindMKL.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindOpenBLAS.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindOpenEXR.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindProtobuf.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVGenABI.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVGenAndroidMK.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVGenConfig.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVGenHeaders.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVGenSetupVars.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVInstallLayout.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVMinDepVersions.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVModule.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVPCHSupport.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVPackaging.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVUtils.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVVersion.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\checks\directml.cpp;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\checks\directx.cpp;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\checks\opencl.cpp;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\checks\win32uitest.cpp;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\platforms\OpenCV-Windows.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\OpenCVConfig-version.cmake.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\OpenCVConfig.cmake.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\cmake_uninstall.cmake.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\custom_hal.hpp.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\cv_cpu_config.h.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\cvconfig.h.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\opencv_modules.hpp.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\setup_vars_win32.cmd.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\vars\EnableModeVars.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\core\include\opencv2\core\version.hpp;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\dnn\cmake\init.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\cmake\DownloadADE.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\cmake\init.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\highgui\cmake\detect_win32ui.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\highgui\cmake\init.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\detect_dshow.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\detect_ffmpeg.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\detect_gstreamer.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\detect_msmf.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\detect_obsensor.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\init.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\bin\cmake.exe -SC:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources -BC:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/build --check-stamp-file C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeFindJavaCommon.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeParseArguments.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakePushCheckState.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CPack.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CPackComponent.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckFunctionExists.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckIncludeFile.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckIncludeFileCXX.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckLibraryExists.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckSourceCompiles.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckSymbolExists.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\CheckTypeSize.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindBLAS.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindGit.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindJNI.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindJava.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindLAPACK.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindOpenMP.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindPythonInterp.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\FindThreads.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Modules\TestBigEndian.cmake;C:\Users\Lemon\Downloads\cmake-4.0.0-rc1-windows-x86_64\cmake-4.0.0-rc1-windows-x86_64\share\cmake-4.0\Templates\CPackConfig.cmake.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\3rdparty\ffmpeg\ffmpeg_version.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\4.0.0-rc1\CMakeCCompiler.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\4.0.0-rc1\CMakeCXXCompiler.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\4.0.0-rc1\CMakeRCCompiler.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\4.0.0-rc1\CMakeSystem.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\3rdparty\ffmpeg\ffmpeg.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\3rdparty\ippicv\ippicv.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVCRTLinkage.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVCompilerOptimizations.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVCompilerOptions.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectApacheAnt.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectCXXCompiler.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectDirectML.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectDirectX.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectFlatbuffers.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectOpenCL.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectPython.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectTrace.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDetectVTK.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVDownload.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVExtraTargets.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindAVIF.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindFrameworks.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindIPP.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindIPPIW.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindLAPACK.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindLibsGUI.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindLibsGrfmt.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindLibsPerf.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindLibsVideo.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindMKL.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindOpenBLAS.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindOpenEXR.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVFindProtobuf.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVGenABI.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVGenAndroidMK.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVGenConfig.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVGenHeaders.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVGenSetupVars.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVInstallLayout.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVMinDepVersions.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVModule.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVPCHSupport.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVPackaging.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVUtils.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\OpenCVVersion.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\checks\directml.cpp;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\checks\directx.cpp;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\checks\opencl.cpp;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\checks\win32uitest.cpp;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\platforms\OpenCV-Windows.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\OpenCVConfig-version.cmake.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\OpenCVConfig.cmake.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\cmake_uninstall.cmake.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\custom_hal.hpp.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\cv_cpu_config.h.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\cvconfig.h.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\opencv_modules.hpp.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\templates\setup_vars_win32.cmd.in;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\cmake\vars\EnableModeVars.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\core\include\opencv2\core\version.hpp;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\dnn\cmake\init.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\cmake\DownloadADE.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\gapi\cmake\init.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\highgui\cmake\detect_win32ui.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\highgui\cmake\init.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\detect_dshow.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\detect_ffmpeg.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\detect_gstreamer.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\detect_msmf.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\detect_obsensor.cmake;C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\sources\modules\videoio\cmake\init.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{4F4F848E-BBB7-37DD-AC63-99687881526E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.vcxproj">
+      <Project>{1A461009-1E7F-3468-A554-F13B7218CC0E}</Project>
+      <Name>jpeg12-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.vcxproj">
+      <Project>{53D1CE25-AD35-31EA-A5D0-D0D4C5A8FEF5}</Project>
+      <Name>jpeg16-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{0A82F200-2C26-3898-8D96-9805BC566B5D}</Project>
+      <Name>libjpeg-turbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\3rdparty\openjpeg\openjp2\libopenjp2.vcxproj">
+      <Project>{AE07E34C-7718-333A-9457-C6BA0DE9784D}</Project>
+      <Name>libopenjp2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\apps\annotation\opencv_annotation.vcxproj">
+      <Project>{BC12BA82-A457-3DCC-B2A5-ED02DB9631EE}</Project>
+      <Name>opencv_annotation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\opencv_calib3d.vcxproj">
+      <Project>{C60D55C5-F850-3282-90E1-6A6CD6817A28}</Project>
+      <Name>opencv_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\opencv_calib3d_AVX2.vcxproj">
+      <Project>{854AAD43-D7CF-3DC9-A19B-255B1C2D5E5E}</Project>
+      <Name>opencv_calib3d_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_core.vcxproj">
+      <Project>{53FA9FB1-2D6F-3B32-88DC-988CCFFC7E74}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_core_AVX.vcxproj">
+      <Project>{D04AD999-EF85-30C2-AFA1-13A67D4DAA48}</Project>
+      <Name>opencv_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_core_AVX2.vcxproj">
+      <Project>{BBF26ACF-226D-3F5F-928C-C212C0CEF4B3}</Project>
+      <Name>opencv_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_core_AVX512_SKX.vcxproj">
+      <Project>{20E23C77-8C75-3568-8CA1-776D591B49B7}</Project>
+      <Name>opencv_core_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_core_SSE4_1.vcxproj">
+      <Project>{8E4DF894-AF27-38F0-A237-FD804A6E5275}</Project>
+      <Name>opencv_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_core_SSE4_2.vcxproj">
+      <Project>{0F45B781-EDB7-3081-AEEC-109F029B49F9}</Project>
+      <Name>opencv_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\dnn\opencv_dnn.vcxproj">
+      <Project>{671EA5F3-511B-395F-A46F-C1FBFAE18275}</Project>
+      <Name>opencv_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\dnn\opencv_dnn_AVX.vcxproj">
+      <Project>{22F73D8D-616D-374F-A55D-AF48DA179B42}</Project>
+      <Name>opencv_dnn_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\dnn\opencv_dnn_AVX2.vcxproj">
+      <Project>{590C6F75-6345-3A9F-8502-329C39055D74}</Project>
+      <Name>opencv_dnn_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\dnn\opencv_dnn_AVX512_SKX.vcxproj">
+      <Project>{4D4ACF96-C9FA-3259-94B3-61B853BD6A35}</Project>
+      <Name>opencv_dnn_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\opencv_dnn_plugins.vcxproj">
+      <Project>{9221683B-C91F-3BBD-BF82-3B339E3CA4F0}</Project>
+      <Name>opencv_dnn_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{1B79E5A0-A1C8-3179-84DE-F52773E35F52}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\features2d\opencv_features2d_AVX2.vcxproj">
+      <Project>{68AB6900-177E-37B5-B1A8-2597F16E1780}</Project>
+      <Name>opencv_features2d_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\features2d\opencv_features2d_AVX512_SKX.vcxproj">
+      <Project>{5F0DE8CF-7524-3FE0-BE64-5F8B9468AA9E}</Project>
+      <Name>opencv_features2d_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\features2d\opencv_features2d_SSE4_1.vcxproj">
+      <Project>{09A4D1BE-DFC5-3EEC-97B6-392B1884B9B5}</Project>
+      <Name>opencv_features2d_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\flann\opencv_flann.vcxproj">
+      <Project>{DE45EBBF-0FE2-30EF-87AA-AAD642462040}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\gapi\opencv_gapi.vcxproj">
+      <Project>{2EB16A45-840B-3104-9EE6-80E360CA0D19}</Project>
+      <Name>opencv_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\gapi\opencv_gapi_AVX2.vcxproj">
+      <Project>{35BD2AE9-3FDA-35CD-93C4-07CA7BEDCBE5}</Project>
+      <Name>opencv_gapi_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\gapi\opencv_gapi_SSE4_1.vcxproj">
+      <Project>{34BA9CCC-65AE-3C9B-BAB5-0CBC9535C20F}</Project>
+      <Name>opencv_gapi_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{08C05E1D-3A94-3061-841D-9C61552D62C3}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\opencv_highgui_plugins.vcxproj">
+      <Project>{5673462B-1030-32A0-9B21-41B163E9B3B3}</Project>
+      <Name>opencv_highgui_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{C9CCE743-164F-354A-8FAA-57369AE3152C}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{99A76B9D-4C17-3B94-B945-CADB3605B9C7}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX.vcxproj">
+      <Project>{A0D3A0B2-2896-381D-91CE-42BA171388A5}</Project>
+      <Name>opencv_imgproc_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX2.vcxproj">
+      <Project>{3529051A-FA83-3F80-BA9E-C47A53CF244B}</Project>
+      <Name>opencv_imgproc_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_AVX512_SKX.vcxproj">
+      <Project>{FD13A404-3AA9-3D54-953D-9C26011D0270}</Project>
+      <Name>opencv_imgproc_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_imgproc_SSE4_1.vcxproj">
+      <Project>{7F83E52C-CB80-3D11-B62C-D8DB942758AF}</Project>
+      <Name>opencv_imgproc_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\apps\interactive-calibration\opencv_interactive-calibration.vcxproj">
+      <Project>{15338FB3-FCE1-3BC6-8FD4-064B7BA78E8D}</Project>
+      <Name>opencv_interactive-calibration</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\ml\opencv_ml.vcxproj">
+      <Project>{D558A961-C3EB-3514-B2E6-B52439F160AD}</Project>
+      <Name>opencv_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\apps\model-diagnostics\opencv_model_diagnostics.vcxproj">
+      <Project>{6B1487C7-5B9A-3E32-A89E-CBF4A4E46698}</Project>
+      <Name>opencv_model_diagnostics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\objdetect\opencv_objdetect.vcxproj">
+      <Project>{53060D2C-9741-34B9-B14B-4BCBFBC6D8EE}</Project>
+      <Name>opencv_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\opencv_perf_calib3d.vcxproj">
+      <Project>{1040233E-9E16-3C7A-9E24-C5085B61CF56}</Project>
+      <Name>opencv_perf_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_perf_core.vcxproj">
+      <Project>{0B79A647-C623-33E6-BEF4-B073ABE6F731}</Project>
+      <Name>opencv_perf_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\dnn\opencv_perf_dnn.vcxproj">
+      <Project>{1A9AC726-4BEC-318F-8833-8C48B6554F07}</Project>
+      <Name>opencv_perf_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\features2d\opencv_perf_features2d.vcxproj">
+      <Project>{2B27EED0-017B-3B2C-8388-ADCE65037AFB}</Project>
+      <Name>opencv_perf_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\gapi\opencv_perf_gapi.vcxproj">
+      <Project>{BC24EDAB-5980-35A0-9B14-F6A5ADC1ABD9}</Project>
+      <Name>opencv_perf_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgcodecs\opencv_perf_imgcodecs.vcxproj">
+      <Project>{940505C7-7433-3CAF-9E80-A6E25E105578}</Project>
+      <Name>opencv_perf_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_perf_imgproc.vcxproj">
+      <Project>{CD9195BC-F45B-39CA-A751-4AF970A725BB}</Project>
+      <Name>opencv_perf_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\objdetect\opencv_perf_objdetect.vcxproj">
+      <Project>{BA660339-AD21-31EB-9933-B2B261EF7A60}</Project>
+      <Name>opencv_perf_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\photo\opencv_perf_photo.vcxproj">
+      <Project>{B9B784D7-CC3A-34BD-AE1F-128C6D01BB77}</Project>
+      <Name>opencv_perf_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\stitching\opencv_perf_stitching.vcxproj">
+      <Project>{DB101B59-BF33-3502-80F6-7277EB60EA8E}</Project>
+      <Name>opencv_perf_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\video\opencv_perf_video.vcxproj">
+      <Project>{E6CECE87-72CD-3A5E-94ED-1D42EE962082}</Project>
+      <Name>opencv_perf_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\videoio\opencv_perf_videoio.vcxproj">
+      <Project>{13BE6208-F6D3-36F2-8BFF-FA7C0288B36D}</Project>
+      <Name>opencv_perf_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\photo\opencv_photo.vcxproj">
+      <Project>{82CBFFD2-583F-3C3A-A972-10DDB569BF6A}</Project>
+      <Name>opencv_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\stitching\opencv_stitching.vcxproj">
+      <Project>{B9730570-05CD-3628-85E5-5A6FB64FC2F7}</Project>
+      <Name>opencv_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\calib3d\opencv_test_calib3d.vcxproj">
+      <Project>{50C614ED-03D2-3030-9774-6A7B382022E9}</Project>
+      <Name>opencv_test_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_test_core.vcxproj">
+      <Project>{BBC0998F-3605-326B-BC2E-EBD9A2B2A83E}</Project>
+      <Name>opencv_test_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_test_core_AVX.vcxproj">
+      <Project>{7411D00A-CAB1-3FB3-8982-3B2169E0691E}</Project>
+      <Name>opencv_test_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_test_core_AVX2.vcxproj">
+      <Project>{EB77A8BC-0D03-32E1-A2CD-1C97A3FF0BA3}</Project>
+      <Name>opencv_test_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_test_core_AVX512_SKX.vcxproj">
+      <Project>{F99C5D7A-4F28-3CBE-8915-A4A59F3DAC6F}</Project>
+      <Name>opencv_test_core_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_test_core_FP16.vcxproj">
+      <Project>{BDD3C053-FF67-3805-A83D-47678CC3F7BA}</Project>
+      <Name>opencv_test_core_FP16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_test_core_SSE2.vcxproj">
+      <Project>{793C61EE-1AA4-32F3-9A67-BEC99803C914}</Project>
+      <Name>opencv_test_core_SSE2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_test_core_SSE3.vcxproj">
+      <Project>{3D45A679-5309-373C-8972-C277607C8806}</Project>
+      <Name>opencv_test_core_SSE3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_test_core_SSE4_1.vcxproj">
+      <Project>{BFA4A4AD-49FD-3E0F-8A2F-33243B15E11F}</Project>
+      <Name>opencv_test_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\core\opencv_test_core_SSE4_2.vcxproj">
+      <Project>{B9293401-231A-35EF-BD33-3D87F13B61B3}</Project>
+      <Name>opencv_test_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\dnn\opencv_test_dnn.vcxproj">
+      <Project>{70F238B1-5A70-3219-8461-89E4B7FE9568}</Project>
+      <Name>opencv_test_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\features2d\opencv_test_features2d.vcxproj">
+      <Project>{D9F9678A-22F9-3FCF-9896-572A9F6912A7}</Project>
+      <Name>opencv_test_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\flann\opencv_test_flann.vcxproj">
+      <Project>{BD704B8D-1012-38FD-BF10-9EA3F60CD0CE}</Project>
+      <Name>opencv_test_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\gapi\opencv_test_gapi.vcxproj">
+      <Project>{7DC4751D-34C6-30B8-BBDD-4BCBED463FAC}</Project>
+      <Name>opencv_test_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\highgui\opencv_test_highgui.vcxproj">
+      <Project>{95FF5E8C-E22E-391F-A32D-FE1A04FC0FC1}</Project>
+      <Name>opencv_test_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgcodecs\opencv_test_imgcodecs.vcxproj">
+      <Project>{B43EBEBF-EB74-3C3E-974A-1B8876445873}</Project>
+      <Name>opencv_test_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\imgproc\opencv_test_imgproc.vcxproj">
+      <Project>{63B77725-FE81-3167-A966-3020A171B7B2}</Project>
+      <Name>opencv_test_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\ml\opencv_test_ml.vcxproj">
+      <Project>{88A31460-56B8-33A9-BE0A-9CA47648BA9F}</Project>
+      <Name>opencv_test_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\objdetect\opencv_test_objdetect.vcxproj">
+      <Project>{94E5954C-9F9E-3EFD-B246-A272637A6E1F}</Project>
+      <Name>opencv_test_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\photo\opencv_test_photo.vcxproj">
+      <Project>{B81552CC-C3B6-3F5F-A789-659F9C2C90B7}</Project>
+      <Name>opencv_test_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\stitching\opencv_test_stitching.vcxproj">
+      <Project>{9434FEDE-BD25-3EE8-BC39-ED5BBEDE02C9}</Project>
+      <Name>opencv_test_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\video\opencv_test_video.vcxproj">
+      <Project>{3B930FE2-F46D-37D0-8D1B-D6FEDA4FB03B}</Project>
+      <Name>opencv_test_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\videoio\opencv_test_videoio.vcxproj">
+      <Project>{8F923678-884D-3969-98AC-BB603C522E97}</Project>
+      <Name>opencv_test_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\ts\opencv_ts.vcxproj">
+      <Project>{1D0ADE9A-0268-3B6B-9B69-A24D3D48C3C3}</Project>
+      <Name>opencv_ts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\apps\version\opencv_version.vcxproj">
+      <Project>{70450446-6119-3220-9DBB-5BC9F9CA2470}</Project>
+      <Name>opencv_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\apps\version\opencv_version_win32.vcxproj">
+      <Project>{ED78D04B-F181-3EDF-82CD-0EF47C66317A}</Project>
+      <Name>opencv_version_win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\video\opencv_video.vcxproj">
+      <Project>{8E014516-93EE-3D17-9F74-F7B3D5380251}</Project>
+      <Name>opencv_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{E0989ADD-950E-3511-97AE-F835463D69A8}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
+      <Project>{F8DC78AC-5AB9-3E7C-A843-6AE103952DE7}</Project>
+      <Name>opencv_videoio_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Lemon\source\repos\OpenCVStream\CameraStream_WinForms_GUI\opencv\build\apps\visualisation\opencv_visualisation.vcxproj">
+      <Project>{F44373D4-4CC0-3E12-81EA-80FE21707071}</Project>
+      <Name>opencv_visualisation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

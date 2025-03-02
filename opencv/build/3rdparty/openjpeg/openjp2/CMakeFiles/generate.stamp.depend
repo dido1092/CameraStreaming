@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Users/Lemon/Downloads/cmake-4.0.0-rc1-windows-x86_64/cmake-4.0.0-rc1-windows-x86_64/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+C:/Users/Lemon/Downloads/cmake-4.0.0-rc1-windows-x86_64/cmake-4.0.0-rc1-windows-x86_64/share/cmake-4.0/Modules/CheckIncludeFile.cmake
+C:/Users/Lemon/Downloads/cmake-4.0.0-rc1-windows-x86_64/cmake-4.0.0-rc1-windows-x86_64/share/cmake-4.0/Modules/CheckLibraryExists.cmake
+C:/Users/Lemon/Downloads/cmake-4.0.0-rc1-windows-x86_64/cmake-4.0.0-rc1-windows-x86_64/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/Lemon/Downloads/cmake-4.0.0-rc1-windows-x86_64/cmake-4.0.0-rc1-windows-x86_64/share/cmake-4.0/Modules/FindPackageMessage.cmake
+C:/Users/Lemon/Downloads/cmake-4.0.0-rc1-windows-x86_64/cmake-4.0.0-rc1-windows-x86_64/share/cmake-4.0/Modules/FindThreads.cmake
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/3rdparty/openjpeg/openjp2/CMakeLists.txt

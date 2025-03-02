@@ -8,6 +8,8 @@
 #include <opencv2/opencv.hpp>
 #include "opencv2/videoio.hpp"
 #include <iostream>
+//#include <ffmpeg/swscale.h>
+
 using namespace cv;
 
 namespace CppCLRWinFormsProject {
@@ -105,7 +107,7 @@ namespace CppCLRWinFormsProject {
 			// 
 			// timer1
 			// 
-			this->timer1->Tick += gcnew System::EventHandler(this, &Form1::timer1_Tick);
+			//this->timer1->Tick += gcnew System::EventHandler(this, &Form1::timer1_Tick);
 			// 
 			// Form1
 			// 
@@ -175,7 +177,7 @@ namespace CppCLRWinFormsProject {
 				//before that, convert opencv Mat to bitmap first
 				Bitmap^ b = gcnew Bitmap(frame.cols, frame.rows, frame.step, Imaging::PixelFormat::Format24bppRgb, System::IntPtr(frame.data));
 
-
+				//b->Save("D://MyVideos//output.avi");
 				// Invoke the delegate update function
 				Control::Invoke(cb, b);
 			}
@@ -209,98 +211,92 @@ namespace CppCLRWinFormsProject {
 	private: System::Void buttonRecord_Click(System::Object^ sender, System::EventArgs^ e)
 	{
 		if (!isRecording) {
-			startRecording("C:/MyVideos/output.avi");
+			startRecording("D:\My Videos\\output.avi");
 			buttonRecord->Text = "Stop Recording";
 		}
 		else {
-			stopRecording();
-			buttonRecord->Text = "Start Recording";
+			//stopRecording();
+			//buttonRecord->Text = "Start Recording";
 		}
 		MessageBox::Show("Recording!");
 	}
-	private: void startRecording(string filename) 
+	private: int startRecording(string filename)
 	{
-		// Open the default camera (0) or specify a video file/URL
-		capture.open(0); // Or capture.open("video_file.mp4"); or capture.open("rtsp://your_stream");
+		cv::VideoCapture cap(0);
 
-		if (!capture.isOpened()) {
-			cerr << "Error opening camera/video stream!" << endl;
-			return;
+		if (!cap.isOpened())
+		{
+			std::cerr << "Error: Could not open camera." << std::endl;
 		}
 
-		int fps = capture.get(CAP_PROP_FPS);
-		if (fps <= 0) {
-			fps = 30; // Set a default FPS if it's not available
+		int frame_width = static_cast<int>(cap.get(cv::CAP_PROP_FRAME_WIDTH));
+		int frame_height = static_cast<int>(cap.get(cv::CAP_PROP_FRAME_HEIGHT));
+		double fps = 30.0;
+
+		cv::VideoWriter video(filename, cv::VideoWriter::fourcc('M', 'J', 'P', 'G'), fps, cv::Size(frame_width, frame_height));
+		//cv::VideoWriter video(filename, cv::VideoWriter::fourcc('D', 'I', 'V', 'X'), fps, cv::Size(frame_width, frame_height));
+
+		if (!video.isOpened()) {
+			std::cerr << "Error: Could not open VideoWriter." << std::endl;
+			return -1;
 		}
-		cv::Size frameSize(capture.get(CAP_PROP_FRAME_WIDTH), capture.get(CAP_PROP_FRAME_HEIGHT));
-
-		// Create the VideoWriter object
-		int fourcc = VideoWriter::fourcc('X', 'V', 'I', 'D');  // Codec (adjust as needed)
-		writer.open("C:/MyVideos/output.avi", fourcc, fps, frameSize);
-
-		if (!writer.isOpened()) {
-			cerr << "Error opening video writer!" << endl;
-			capture.release();
-			return;
-		}
-
-		isRecording = true;
-		cout << "Start Recording..." << endl;
-	}
-
-	private: void stopRecording() {
-		isRecording = false;
-		capture.release();
-		writer.release();
-		cout << "Stop Recording..." << endl;
-	}
-	private: int main() {
-		char key;
-
+		cv::Mat frame;
 		while (true) {
-			if (isRecording) {
-				Mat frame;
-				capture >> frame;
+			cap >> frame; // Capture frame-by-frame
 
-				if (frame.empty()) {
-					break; // End of stream
-				}
-
-				writer << frame;
-
-				imshow("Recording", frame);  // Display the frame (optional)
+			if (frame.empty()) {
+				std::cerr << "Error: Captured frame is empty." << std::endl;
+				return -1;
+				//break;
+			}
+			//===================================================================
+			if (frame_width == 0 || frame_height == 0) {
+				frame_width = 640; // Default width
+				frame_height = 480; // Default height
 			}
 
-			key = waitKey(1);  // Check for key presses
-			if (key == 's' && !isRecording) {  // Press 's' to start
-				startRecording("C:/MyVideos/output.avi");
+			if (fps <= 0) {
+				fps = 30.0; // Default FPS
 			}
-			else if (key == 's' && isRecording) { // Press 's' to stop
-				stopRecording();
-			}
-			else if (key == 27) { // ESC to exit
+			//===================================================================
+
+
+			video.write(frame); // Write the frame into the video file
+
+			cv::imshow("Frame", frame); // Display the frame (optional)
+
+			if (cv::waitKey(1) == 27) { // Press 'ESC' to exit
 				break;
 			}
+
 		}
 
-		if (isRecording) { // In case the loop breaks while recording
-			stopRecording();
-		}
+		const char* command = "ffmpeg -f dshow -i video=\"Integrated Camera\":audio=\"Microphone (Realtek Audio)\" output.mp4";
+		std::system(command);
 
-		destroyAllWindows();
+		cap.release();
+		video.release();
+		cv::destroyAllWindows();
+
+		std::cout << "Video saved successfully." << std::endl;
+
+		return 0;
+	}
+
+	private: int main() {
 		return 0;
 	}
 	private: System::Void timer1_Tick(System::Object^ sender, System::EventArgs^ e) {
 
-		if (isRecording) {
-			cv::Mat frame;
-			capture >> frame;
-			if (!frame.empty()) {
-				// Convert cv::Mat to System::Drawing::Bitmap for PictureBox
-				System::Drawing::Bitmap^ bmp = MatToBitmap(frame); // Implement MatToBitmap function (see below)
-				pictureBoxOutput->Image = bmp;
-			}
-		}
+		//if (isRecording) {
+		//	cv::Mat frame;
+		//	capture >> frame;
+		//	if (!frame.empty()) {
+		//		// Convert cv::Mat to System::Drawing::Bitmap for PictureBox
+		//		System::Drawing::Bitmap^ bmp = MatToBitmap(frame); // Implement MatToBitmap function (see below)
+		//		pictureBoxOutput->Image = bmp;
+		//	}
+		//}
 	}
 		   System::Drawing::Bitmap^ Form1::MatToBitmap(cv::Mat frame) {
 			   System::Drawing::Bitmap^ bmp = nullptr;
@@ -320,6 +316,8 @@ namespace CppCLRWinFormsProject {
 			   }
 			   return bmp;
 		   }
-	}; // end of class Form1
-} // end of namespace CppCLRWinFormsProject
+	};
+}// end of class Form1
+// end of namespace CppCLRWinFormsProject
+
 

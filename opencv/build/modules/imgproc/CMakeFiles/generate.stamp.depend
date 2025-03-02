@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/cmake/templates/dllmain.cpp.in
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/cmake/templates/vs_version.rc.in
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/modules/imgproc/CMakeLists.txt

@@ -1,0 +1,44 @@
+# Target labels
+ Main
+ opencv_highgui
+ Module
+# Source files and their labels
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/build/modules/highgui/CMakeFiles/opencv_highgui.dir/cmake_pch.cxx
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/modules/highgui/include/opencv2/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/modules/highgui/include/opencv2/highgui/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/modules/highgui/include/opencv2/highgui/highgui_c.h
+ Main
+ opencv_highgui
+ Module
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/modules/highgui/src/backend.cpp
+ Main
+ opencv_highgui
+ Module
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/modules/highgui/src/window.cpp
+ Main
+ opencv_highgui
+ Module
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/modules/highgui/src/roiSelector.cpp
+ Main
+ opencv_highgui
+ Module
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/modules/highgui/src/window_w32.cpp
+ Main
+ opencv_highgui
+ Module
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/sources/modules/highgui/src/precomp.hpp
+ Main
+ opencv_highgui
+ Module
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/build/cvconfig.h
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/build/opencv2/opencv_modules.hpp
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/build/modules/highgui/vs_version.rc
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/build/modules/highgui/opencv_highgui_main.cpp
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/build/modules/highgui/CMakeFiles/opencv_highgui.dir/Debug/cmake_pch.hxx
+C:/Users/Lemon/source/repos/OpenCVStream/CameraStream_WinForms_GUI/opencv/build/modules/highgui/CMakeFiles/opencv_highgui.dir/Release/cmake_pch.hxx
